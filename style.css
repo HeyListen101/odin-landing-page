@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("Poppins-Medium.ttf");
+}
+
+* {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+header,
+.content-one,
+footer {
+    background-color: #1f2937;
+}
+
+header h1 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+header a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content-one h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content-one button {
+    background-color: #3882f6;
+}
+
+.content-two h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.content-three {
+    background-color: #e5e7eb;
+}
+
+.content-three p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
