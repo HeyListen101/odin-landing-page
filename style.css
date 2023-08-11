@@ -85,20 +85,62 @@ header a {
     padding: 5px 20px;
 }
 
+.content-two {
+    display: flex;
+    padding: 25px 350px 75px 350px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.content-two .sections {
+    display: flex;
+    justify-content: space-between;;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+    display: flex;
+    flex-direction: column;
+    width: 125px;
+}
+
+.content-two p {
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+
+
+.sections img {
+    width: 125px;
+    height: auto;
+    border-radius: 5px;
+}
+
 .content-two h1 {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
 }
 
 .content-three {
+    color: #1f2937;
+    display: flex;
+    padding: 75px 350px;
+    flex-direction: column;
     background-color: #e5e7eb;
 }
 
 .content-three p {
-    color: #1f2937;
     font-size: 36px;
     font-style: italic;
+    margin: 0;
+}
+
+.content-three h2 {
+    text-align: right;
 }
 
 footer {
